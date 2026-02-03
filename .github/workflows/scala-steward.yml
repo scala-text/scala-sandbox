@@ -16,7 +16,7 @@ jobs:
       with:
         app-id: 89662
         private-key: ${{ secrets.SCALA_TEXT_BOT_KEY }}
-    - uses: scala-steward-org/scala-steward-action@f60ccd18bc9d8083e6809d9dc3db4a69a71d856c # v2.78.0
+    - uses: scala-steward-org/scala-steward-action@df2a4cec1721d0b48be3e1d1f0acdf7543ea0fb4 # v2.84.0
       with:
         github-token: ${{ steps.generate_token.outputs.token }}
         author-email: "74845010+scala-text-bot[bot]@users.noreply.github.com"
