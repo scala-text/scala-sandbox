@@ -1,5 +1,5 @@
 name := "scala-sandbox"
 
-scalaVersion := "2.13.18"
+scalaVersion := "3.8.3"
 
-scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Xlint")
+scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked")
