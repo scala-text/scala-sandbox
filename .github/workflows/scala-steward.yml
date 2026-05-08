@@ -14,7 +14,7 @@ jobs:
     - id: generate_token
       uses: actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3 # v3.1.1
       with:
-        app-id: 89662
+        client-id: 89662
         private-key: ${{ secrets.SCALA_TEXT_BOT_KEY }}
     - uses: scala-steward-org/scala-steward-action@b186ab858ce163f9af7b016fac32cfb3f2c2f503 # v2.88.0
       with:
